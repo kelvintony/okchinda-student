@@ -1,0 +1,32 @@
+/* third_section */
+.pics_part {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 0px 80px;
+    gap: 5px;
+  }
+  
+  .first {
+    margin-left: 110px;
+  }
+  
+  .first img {
+    width: 850px;
+  }
+  
+  .first p {
+    text-decoration: underline 5px solid green;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+  }
+  
+  .second p {
+    text-decoration: underline 5px solid green;
+    margin-top: 150px;
+    margin-left: 80px;
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+  }
+  
