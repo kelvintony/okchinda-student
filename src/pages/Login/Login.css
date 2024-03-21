@@ -1,0 +1,192 @@
+.login_section {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  position: relative;
+}
+
+.login_third_section label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+/* first part */
+
+.login_first_section img {
+  width: cover;
+}
+
+/* second part */
+.login_second_section {
+  padding: 20px;
+  background-color: white;
+  border-top-left-radius: 52px;
+  border-top-right-radius: 52px;
+}
+
+.login_second_section h3 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+.login_second_section p {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
+  color: grey;
+  text-align: center;
+}
+
+.login_third_section {
+  padding: 20px 10px;
+  background-color: white;
+}
+
+.login_third_section span {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
+  margin: 5px 4px;
+}
+
+.login_third_section input {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
+  border-radius: 4px;
+  padding: 3px;
+  margin: 0px 2px;
+  margin-bottom: 20px;
+  width: 300px;
+  color: gray;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.login_third_section input:focus,
+input:hover {
+  outline: none;
+  border-color: rgba(31, 28, 29, 0.4);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgba(8, 8, 8, 0.1);
+}
+
+.tableNumber span {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
+  margin: 0px 1px;
+}
+
+.select_container {
+  height: 40px;
+}
+
+.tableNumber option {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
+  color: gray;
+}
+
+.login_third_inner button {
+  color: white;
+  background-color: green;
+  width: 300px;
+  padding: 8px;
+  margin-top: 30px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.login_third_inner button:hover {
+  background-color: rgb(4, 192, 4);
+}
+
+@media screen and (max-width: 900px) {
+  /* first part */
+
+  .login_first_section img {
+    width: cover;
+  }
+
+  /* second part */
+  .login_second_section {
+    padding: 20px;
+    background-color: white;
+    border-top-left-radius: 52px;
+    border-top-right-radius: 52px;
+  }
+
+  .login_second_section h3 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .login_second_section p {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+  }
+
+  .login_third_section {
+    padding: 20px 10px;
+    background-color: white;
+  }
+
+  .login_third_section span {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 12px;
+    margin: 5px 4px;
+  }
+
+  .login_third_section input {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 3px;
+    margin: 0px 2px;
+    margin-bottom: 20px;
+    width: 300px;
+    color: gray;
+    height: 40px;
+    border: 1px solid black;
+  }
+
+  .login_third_section input:focus,
+  input:hover {
+    outline: none;
+    border-color: rgba(31, 28, 29, 0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(8, 8, 8, 0.1);
+  }
+
+  .tableNumber span {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 12px;
+    margin: 0px 1px;
+  }
+
+  .select_container {
+    height: 40px;
+  }
+
+  .tableNumber option {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 12px;
+    color: gray;
+  }
+
+  .login_third_inner button {
+    color: white;
+    background-color: green;
+    width: 300px;
+    padding: 8px;
+    margin-top: 30px;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+  .login_third_inner button:hover {
+    background-color: rgb(4, 192, 4);
+  }
+}
