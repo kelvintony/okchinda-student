@@ -4,7 +4,7 @@ const SelectMealSoup = () => {
   return (
     <section className="login_section">
       {/* first part */}
-      <section className="soup_first_part">
+      <section className="soup_first">
         <div className="soup_first_part">
           <img src="./arrow.png" alt="" />
           <h3>Select Meal</h3>
