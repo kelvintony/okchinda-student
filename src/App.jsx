@@ -21,6 +21,12 @@ function App() {
           <Route exact path="/empty-cart" element={<EmptyCart />} />
 
           <Route exact path="/cart-with-order" element={<CartWithOrder />} />
+
+          <Route
+            exact
+            path="/meal-preference"
+            element={<MealPreferenceRice />}
+          />
         </Routes>
       </BrowserRouter>
     </>
