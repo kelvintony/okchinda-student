@@ -11,6 +11,8 @@ import EmptyCart from "./pages/EmptyCart/EmptyCart";
 import CartWithOrder from "./pages/CartWithOrder/CartWithOrder";
 
 import MealPreferenceRice from "./pages/MealPreferenceRice/MealPreferenceRice";
+import AdminDebby from "./pages/AdminDebby/AdminDebby";
+import AdminProcessing from "./pages/AdminProcessing/AdminProcessing";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -34,6 +36,10 @@ function App() {
           <Route exact path="/empty-cart" element={<EmptyCart />} />
 
           <Route exact path="/cart-with-order" element={<CartWithOrder />} />
+
+          <Route exact path="/admin-debby" element={<AdminDebby />} />
+
+          <Route exact path="/admin-processing" element={<AdminProcessing />} />
 
           <Route
             exact

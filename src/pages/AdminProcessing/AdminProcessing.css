@@ -1,0 +1,131 @@
+.admin_processing {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  position: relative;
+  padding: 10px;
+}
+
+/* first part */
+.meal_first_part {
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+}
+.meal_first_part img:nth-of-type(1) {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 8px;
+}
+
+.meal_first_part img:nth-of-type(2) {
+  border: none;
+}
+
+.meal_first_part h3 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 18px;
+  color: writing grey;
+  margin-top: 5px;
+}
+
+.Admin_order {
+  background-color: rgb(227, 227, 227);
+  margin: 20px 10px;
+  padding: 20px;
+}
+
+.Admin_order h3 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.Admin_order span {
+  color: gray;
+  margin-bottom: 30px;
+}
+
+.Admin_order h5 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.Admin_order p {
+  color: #ff7351;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 10px;
+}
+
+.admin_processing_inner p {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 10px;
+  color: gray;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  /* first part */
+  .meal_first_part {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+  }
+  .meal_first_part img:nth-of-type(1) {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 8px;
+  }
+
+  .meal_first_part img:nth-of-type(2) {
+    border: none;
+  }
+
+  .meal_first_part h3 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 18px;
+    color: writing grey;
+    margin-top: 5px;
+  }
+
+  .Admin_order {
+    background-color: rgb(227, 227, 227);
+    margin: 20px 10px;
+    padding: 20px;
+  }
+
+  .Admin_order h3 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .Admin_order span {
+    color: gray;
+    margin-bottom: 30px;
+  }
+
+  .Admin_order h5 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  .Admin_order p {
+    color: #ff7351;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 10px;
+  }
+
+  .admin_processing_inner p {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 10px;
+    color: gray;
+    margin-top: 10px;
+  }
+}
