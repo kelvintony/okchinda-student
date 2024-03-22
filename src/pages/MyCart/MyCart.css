@@ -11,11 +11,10 @@
   gap: 49px;
 }
 .MyCart_inner img {
-  width: 30px;
-  height: 30px;
-  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  border: 1px grey solid;
   padding: 3px;
-  border: 8px;
 }
 .MyCart_inner h3 {
   font-family: "Merriweather Sans", sans-serif;
@@ -30,8 +29,10 @@
 
 .MyCart_second_inner1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 30px;
   margin-top: 70px;
+  padding: 10px;
   background: #f6f6f6ba;
   border-radius: 8px;
 }
@@ -53,7 +54,8 @@
 }
 .MyCart_second_inner2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 75px;
   margin-top: 70px;
   background: #f6f6f6ba;
   border-radius: 8px;
@@ -77,7 +79,8 @@
 
 .MyCart_second_inner3 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 70px;
   margin-top: 70px;
   background: #f6f6f6ba;
   border-radius: 8px;
