@@ -1,7 +1,14 @@
+// import "./App.css";
 import Event from "./pages/Event/Event";
+// import "./App.css";
 import Home from "./pages/Home/Home";
 import SuccessMessage from "./components/SuccessMessage/SuccessMessage";
 import SelectMealRice from "./pages/SelectMealRice/SelectMealRice";
+// import "./App.css";
+import MyCart from "./pages/MyCart/MyCart";
+import MyOrder from "./pages/MyOrder/MyOrder";
+
+// import "./App.css";
 import Login from "./pages/Login/Login";
 import SelectMealSoup from "./pages/SelectMealSoup/SelectMealSoup";
 import EmptyCart from "./pages/EmptyCart/EmptyCart";
@@ -17,6 +24,10 @@ function App() {
           <Route exact path="/event" element={<Event />} />
           <Route exact path="/successmessage" element={<SuccessMessage />} />
           <Route exact path="/SelectMealRice" element={<SelectMealRice />} />
+
+          <Route exact path="/cart" element={<MyCart />} />
+          <Route exact path="/order" element={<MyOrder />} />
+
           <Route exact path="/login" element={<Login />} />
 
           <Route exact path="/select-meal-soup" element={<SelectMealSoup />} />
