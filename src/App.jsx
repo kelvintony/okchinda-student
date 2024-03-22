@@ -1,10 +1,7 @@
 import Event from "./pages/Event/Event";
-import "./App.css";
 import Home from "./pages/Home/Home";
 import SuccessMessage from "./components/SuccessMessage/SuccessMessage";
 import SelectMealRice from "./pages/SelectMealRice/SelectMealRice";
-
-import "./App.css";
 import Login from "./pages/Login/Login";
 import SelectMealSoup from "./pages/SelectMealSoup/SelectMealSoup";
 import EmptyCart from "./pages/EmptyCart/EmptyCart";

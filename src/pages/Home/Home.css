@@ -1,5 +1,5 @@
 .home_container {
-  max-width: 500px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 30px;
 }
@@ -46,7 +46,8 @@
 }
 .food_flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
   align-items: center;
 }
 .meals_card {
