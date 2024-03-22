@@ -1,5 +1,5 @@
 .SelectMeal_first_section {
-  max-width: 500px;
+  max-width: 900px;
   margin: 0 auto;
   background-color: whitesmoke;
   position: relative;
@@ -21,12 +21,15 @@
   margin-top: 2px;
 }
 .SelectMeal_second_section {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  position: relative;
+  padding: 10px;
   margin-top: 40px;
   padding: 50px;
 }
 .SelectMeal_second_section img {
-  width: 200px;
-  height: 200px;
   object-fit: cover;
   margin-bottom: 20px;
   border-radius: 12px;
