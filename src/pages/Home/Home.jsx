@@ -23,7 +23,7 @@ const Home = () => {
           </div>
           <div>
             <button className="cart_button">
-              <img src={cart} alt="" />
+              <img src={cart} alt="cart" />
             </button>
           </div>
         </div>
@@ -52,9 +52,10 @@ const Home = () => {
                     <Button
                       key={meal.id}
                       handleButtonClick={() => goToNewPage(meal.id)}
-                      title={"Order"}
-                      classes={"btn"}
-                    />
+                      className={"btn_home"}
+                    >
+                      Order
+                    </Button>
                   </div>
                 </div>
               </div>
