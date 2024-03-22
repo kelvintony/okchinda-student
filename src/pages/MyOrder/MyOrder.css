@@ -83,3 +83,36 @@
 .footer_container img {
   width: 20px;
 }
+
+@media screen and(max-width:900px) {
+  .MyOrder_inner {
+    display: flex;
+    justify-content: space-around;
+    gap: 49px;
+  }
+  .MyOrder_second_inner1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
+    padding: 10px;
+    background: #f6f6f6ba;
+    border-radius: 8px;
+  }
+  .MyOrder_second_inner2 {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin-top: 70px;
+    background: #f6f6f6ba;
+    border-radius: 8px;
+  }
+  .footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    gap: 20px;
+  }
+}
