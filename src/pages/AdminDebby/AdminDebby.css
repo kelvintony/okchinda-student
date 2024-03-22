@@ -1,0 +1,227 @@
+.AdminPage {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  position: relative;
+  padding: 10px;
+}
+
+/* first part */
+.admin_debby_first_section {
+  padding: 20px;
+}
+
+.admin_debby_first_section h3 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 18px;
+  color: writing grey;
+}
+
+.admin_debby_first_inner {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.inner_in p:nth-of-type(1) {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
+  color: grey;
+}
+
+.inner_in p:nth-of-type(2) {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 14px;
+}
+
+.Admin_order {
+  background-color: rgb(227, 227, 227);
+  margin-top: 20px;
+  padding: 20px 10px;
+}
+
+.Admin_order h3 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.Admin_order span {
+  color: gray;
+  margin-bottom: 30px;
+}
+
+.Admin_order h5 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.Admin_order p {
+  color: #fdbd29;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 10px;
+}
+
+.Admin_order button {
+  background-color: green;
+  color: white;
+  padding: 10px 100px;
+  border-radius: 8px;
+  margin-top: 30px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
+}
+
+.Admin_order button:hover {
+  background-color: rgb(4, 192, 4);
+}
+
+/* second part */
+.admin_last_section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.admin_last_section img {
+  width: 20px;
+}
+
+.admin_last_inner1 {
+  margin-top: 20px;
+}
+
+.admin_last_inner1 p {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 10px;
+  color: green;
+}
+
+.admin_last_inner2 {
+  margin-top: 20px;
+}
+
+.admin_last_inner2 p {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 10px;
+  color: gray;
+}
+
+.admin_last_inner3 img {
+  width: 65px;
+}
+
+@media screen and (max-width: 900px) {
+  /* first part */
+  .admin_debby_first_section {
+    padding: 20px;
+  }
+
+  .admin_debby_first_section h3 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 18px;
+    color: writing grey;
+  }
+
+  .admin_debby_first_inner {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .inner_in p:nth-of-type(1) {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 12px;
+    color: grey;
+  }
+
+  .inner_in p:nth-of-type(2) {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 14px;
+  }
+
+  .Admin_order {
+    background-color: rgb(227, 227, 227);
+    margin-top: 20px;
+    padding: 20px 10px;
+  }
+
+  .Admin_order h3 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .Admin_order span {
+    color: gray;
+    margin-bottom: 30px;
+  }
+
+  .Admin_order h5 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  .Admin_order p {
+    color: #fdbd29;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 10px;
+  }
+
+  .Admin_order button {
+    background-color: green;
+    color: white;
+    padding: 10px 100px;
+    border-radius: 8px;
+    margin-top: 30px;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 12px;
+  }
+
+  .Admin_order button:hover {
+    background-color: rgb(4, 192, 4);
+  }
+
+  /* second part */
+  .admin_last_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .admin_last_section img {
+    width: 20px;
+  }
+
+  .admin_last_inner1 {
+    margin-top: 20px;
+  }
+
+  .admin_last_inner1 p {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 10px;
+    color: green;
+  }
+
+  .admin_last_inner2 {
+    margin-top: 20px;
+  }
+
+  .admin_last_inner2 p {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 10px;
+    color: gray;
+  }
+
+  .admin_last_inner3 img {
+    width: 65px;
+  }
+}
