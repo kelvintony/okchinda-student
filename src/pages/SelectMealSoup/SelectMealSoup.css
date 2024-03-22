@@ -1,0 +1,274 @@
+.soup_first {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  position: relative;
+  padding: 10px;
+}
+
+.soup_first_part {
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+}
+.soup_first_part img {
+  width: 30px;
+  height: 30px;
+}
+
+.soup_first_part h3 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 28px;
+  color: writing grey;
+  margin-top: 5px;
+}
+
+/* second part */
+
+.soup_second_part {
+  margin-top: 40px;
+  padding: 50px;
+}
+
+.soup_second_part img {
+  width: 400px;
+  height: 350px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.soup_second_part h3 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 18px;
+  color: writing grey;
+  margin-bottom: 10px;
+}
+
+.second_soup_inner {
+  display: flex;
+  gap: 5px;
+}
+
+.second_soup_inner img {
+  width: 8px;
+  height: 8px;
+  margin-top: 3px;
+}
+
+.second_soup_inner p {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
+  color: green;
+}
+
+.soup_second_part p:nth-of-type(2) {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 14px;
+  color: writing grey;
+}
+
+.selectFood {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+  gap: 20px;
+  padding: 10px;
+}
+
+.swallow_part {
+  border: 1px solid green;
+  text-align: center;
+  height: 180px;
+  padding-top: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.swallow_part img:nth-of-type(1) {
+  width: 50px;
+  height: 50px;
+}
+
+.swallow_part img:nth-of-type(2) {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.SelectProtein {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+  gap: 20px;
+  padding: 10px;
+}
+
+.ingredientsPart h5 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 16px;
+  color: writing grey;
+}
+.ingredientsPart ul {
+  padding: 20px;
+}
+li {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 13px;
+  color: writing grey;
+}
+
+/* last part */
+.soup_last_part {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.soup_last_part button {
+  background-color: green;
+  color: white;
+  padding: 10px 120px;
+  border-radius: 8px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
+}
+
+.soup_last_part button:hover {
+  background-color: rgb(4, 192, 4);
+}
+
+@media screen and (max-width: 900px) {
+  /* first part */
+  .soup_first_part {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+  }
+  .soup_first_part img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 8px;
+  }
+
+  .soup_first_part h3 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 18px;
+    color: writing grey;
+    margin-top: 5px;
+  }
+
+  /* second part */
+
+  .soup_second_part {
+    margin-top: 40px;
+    padding: 30px;
+  }
+
+  .soup_second_part img {
+    width: 300px;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+  }
+
+  .soup_second_part h3 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 18px;
+    color: writing grey;
+    margin-bottom: 10px;
+  }
+
+  .second_soup_inner {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+
+  .second_soup_inner img {
+    width: 8px;
+    height: 8px;
+    margin-top: 3px;
+  }
+
+  .second_soup_inner p {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 12px;
+    color: green;
+  }
+
+  .soup_second_part p:nth-of-type(2) {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 14px;
+    color: writing grey;
+  }
+
+  .selectFood {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .swallow_part {
+    border: 1px solid green;
+    text-align: center;
+    height: 180px;
+    padding-top: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+
+  .swallow_part img:nth-of-type(1) {
+    width: 50px;
+    height: 50px;
+  }
+
+  .swallow_part img:nth-of-type(2) {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+  }
+
+  .SelectProtein {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .ingredientsPart h5 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 16px;
+    color: writing grey;
+  }
+  .ingredientsPart ul {
+    padding: 20px;
+  }
+  li {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 13px;
+    color: writing grey;
+  }
+
+  /* last part */
+  .soup_last_part {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .soup_last_part button {
+    background-color: green;
+    color: white;
+    padding: 10px 120px;
+    border-radius: 8px;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 12px;
+  }
+
+  .soup_last_part button:hover {
+    background-color: rgb(4, 192, 4);
+  }
+}
