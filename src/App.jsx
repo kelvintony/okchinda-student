@@ -1,3 +1,10 @@
+import Event from "./pages/Event/Event";
+import Home from "./pages/Home/Home";
+import SuccessMessage from "./components/SuccessMessage/SuccessMessage";
+import SelectMealRice from "./pages/SelectMealRice/SelectMealRice";
+import MyCart from "./pages/MyCart/MyCart";
+import MyOrder from "./pages/MyOrder/MyOrder";
+
 import Login from "./pages/Login/Login";
 import SelectMealSoup from "./pages/SelectMealSoup/SelectMealSoup";
 import EmptyCart from "./pages/EmptyCart/EmptyCart";
@@ -6,8 +13,6 @@ import CartWithOrder from "./pages/CartWithOrder/CartWithOrder";
 import MealPreferenceRice from "./pages/MealPreferenceRice/MealPreferenceRice";
 import AdminDebby from "./pages/AdminDebby/AdminDebby";
 import AdminProcessing from "./pages/AdminProcessing/AdminProcessing";
-
-import Home from "./pages/Home/Home";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
