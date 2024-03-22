@@ -1,3 +1,7 @@
+import "./App.css";
+import Home from "./pages/Home/Home";
+import SuccessMessage from "./components/SuccessMessage/SuccessMessage";
+import SelectMealRice from "./pages/SelectMealRice/SelectMealRice";
 
 import "./App.css";
 import Login from "./pages/Login/Login";
@@ -14,6 +18,9 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/successmessage" element={<SuccessMessage />} />
+          <Route exact path="/SelectMealRice" element={<SelectMealRice />} />
           <Route exact path="/login" element={<Login />} />
 
           <Route exact path="/select-meal-soup" element={<SelectMealSoup />} />
