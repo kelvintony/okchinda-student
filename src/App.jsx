@@ -1,4 +1,3 @@
-import "./App.css";
 import Login from "./pages/Login/Login";
 import SelectMealSoup from "./pages/SelectMealSoup/SelectMealSoup";
 import EmptyCart from "./pages/EmptyCart/EmptyCart";
