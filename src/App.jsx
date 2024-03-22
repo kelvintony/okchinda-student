@@ -1,8 +1,20 @@
+
 import "./App.css";
+// import "./App.css";
+import Event from "./pages/Event/Event";
+// import "./App.css";
+import Home from "./pages/Home/Home";
+import SuccessMessage from "./components/SuccessMessage/SuccessMessage";
+import SelectMealRice from "./pages/SelectMealRice/SelectMealRice";
+import MyCart from "./pages/MyCart/MyCart";
+import MyOrder from "./pages/MyOrder/MyOrder";
+
+// import "./App.css";
 import Login from "./pages/Login/Login";
 import SelectMealSoup from "./pages/SelectMealSoup/SelectMealSoup";
 import EmptyCart from "./pages/EmptyCart/EmptyCart";
 import CartWithOrder from "./pages/CartWithOrder/CartWithOrder";
+
 import MealPreferenceRice from "./pages/MealPreferenceRice/MealPreferenceRice";
 
 import Home from "./pages/Home/Home";
@@ -14,6 +26,14 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/event" element={<Event />} />
+          <Route exact path="/successmessage" element={<SuccessMessage />} />
+          <Route exact path="/SelectMealRice" element={<SelectMealRice />} />
+
+          <Route exact path="/cart" element={<MyCart />} />
+          <Route exact path="/order" element={<MyOrder />} />
+
           <Route exact path="/login" element={<Login />} />
 
           <Route exact path="/select-meal-soup" element={<SelectMealSoup />} />
