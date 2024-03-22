@@ -1,6 +1,6 @@
 // import "./App.css";
 import Event from "./pages/Event/Event";
-import "./App.css";
+// import "./App.css";
 import Home from "./pages/Home/Home";
 import SuccessMessage from "./components/SuccessMessage/SuccessMessage";
 import SelectMealRice from "./pages/SelectMealRice/SelectMealRice";
