@@ -1,0 +1,210 @@
+.SelectMeal_first_section {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  position: relative;
+  padding: 10px;
+}
+.Top_section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.Top_section img {
+  width: 30px;
+  height: 30px;
+}
+.Top_section h4 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 25px;
+  color: #2a2a2a;
+  margin-top: 2px;
+}
+.SelectMeal_second_section {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  position: relative;
+  padding: 10px;
+  margin-top: 40px;
+  padding: 50px;
+}
+.SelectMeal_second_section img {
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+.SelectMeal_second_section h3 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 18px;
+  color: #2a2a2a;
+  margin-bottom: 10px;
+}
+.SelectMeal_second_inner {
+  display: flex;
+  gap: 5px;
+}
+.SelectMeal_second_inner img {
+  width: 8px;
+  height: 8px;
+  margin-top: 3px;
+}
+.SelectMeal_second_inner p {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 14px;
+  color: #2a2a2a;
+}
+.SelectMeal_second_section p:nth-of-type(2) {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 14px;
+  color: #2a2a2a;
+}
+.Select_Sauce {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  margin-top: 20px;
+  gap: 20px;
+  padding: 10px;
+}
+.Sauce_Part {
+  border: 1px solid green;
+  text-align: center;
+  height: 180px;
+  padding-top: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+.Sauce_Part img:nth-of-type(1) {
+  width: 50px;
+  height: 50px;
+}
+.Sauce_Part img:nth-of-type(2) {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+.Select_Protein_Section {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  margin-top: 20px;
+  gap: 20px;
+  padding: 10px;
+}
+.Protein_Part {
+  border: 1px solid green;
+  text-align: center;
+  height: 180px;
+  padding-top: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+.Protein_Part img:nth-of-type(1) {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.Protein_Part img:nth-of-type(2) {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  object-fit: cover;
+}
+.Ingredient_section h5 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 16px;
+  color: #2a2a2a;
+}
+.Ingredient_section ul {
+  padding: 20px;
+}
+li {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 13px;
+  color: #2a2a2a;
+}
+.SelectMeal_third_section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* utilities */
+.SelectMeal_third_section button {
+  background-color: green;
+  color: white;
+  padding: 10px 120px;
+  border-radius: 8pxd;
+}
+.SelectMeal_third_section button:hover {
+  background-color: rgb(4, 192, 4);
+}
+@media screen and( max-width:900px) {
+  .Top_section {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+  }
+  .Top_section img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 8px;
+  }
+  .Top_section h4 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 18px;
+    color: #2a2a2a;
+    margin-top: 2px;
+  }
+  .SelectMeal_second_section {
+    margin-top: 40px;
+    padding: 20px;
+  }
+  .SelectMeal_second_section img {
+    width: 30px;
+    height: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+  }
+  .SelectMeal_second_section h3 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 18px;
+    color: #2a2a2a;
+    margin-bottom: 10px;
+  }
+  .SelectMeal_second_inner {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  .SelectMeal_second_inner p {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 12px;
+    color: green;
+  }
+  .SelectMeal_second_section p:nth-of-type(2) {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 14px;
+    color: #2a2a2a;
+  }
+  .Select_Sauce {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    gap: 20px;
+    padding: 10px;
+  }
+  .Ingredient_section h5 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 16px;
+    color: #2a2a2a;
+  }
+  .Ingredient_section ul {
+    padding: 20px;
+  }
+  .SelectMeal_third_section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
