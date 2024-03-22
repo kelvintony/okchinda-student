@@ -12,7 +12,6 @@ import Login from "./pages/Login/Login";
 import SelectMealSoup from "./pages/SelectMealSoup/SelectMealSoup";
 import EmptyCart from "./pages/EmptyCart/EmptyCart";
 import CartWithOrder from "./pages/CartWithOrder/CartWithOrder";
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
