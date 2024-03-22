@@ -1,0 +1,142 @@
+.meal_preference {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  position: relative;
+  padding: 15px;
+}
+
+.meal_first_part {
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+}
+.meal_first_part img {
+  width: 30px;
+  height: 30px;
+}
+
+.meal_first_part h3 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 28px;
+  color: writing grey;
+  margin-top: 5px;
+}
+
+/* second part */
+.meal_preference_second_section {
+  padding: 50px 10px;
+}
+
+.meal_preference_second_section h6 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 20px;
+  color: #2a2a2a;
+  margin-bottom: 20px;
+}
+
+.inner_inner img {
+  margin-bottom: 20px;
+}
+.inner_inner {
+  position: relative;
+}
+
+.bottom_right {
+  position: absolute;
+  bottom: 35px;
+  right: 16px;
+  background-color: #ffa283;
+  padding: 5px 15px;
+  border-radius: 8px;
+  color: white;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 14px;
+}
+
+.Meal_rice_inner {
+  text-align: center;
+}
+
+.Meal_rice_inner button {
+  background-color: green;
+  color: white;
+  padding: 10px 130px;
+  border-radius: 8px;
+  margin-top: 70px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
+}
+
+.Meal_rice_inner button:hover {
+  background-color: rgb(4, 192, 4);
+}
+
+@media screen and (max-width: 900px) {
+  /* first part */
+  .meal_first_part {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+  }
+  .meal_first_part img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 8px;
+  }
+
+  .meal_first_part h3 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 18px;
+    color: writing grey;
+    margin-top: 5px;
+  }
+
+  /* second part */
+  .meal_preference_second_section {
+    padding: 50px 10px;
+  }
+
+  .meal_preference_second_section h6 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 16px;
+    color: #2a2a2a;
+    margin-bottom: 20px;
+  }
+
+  .inner_inner img {
+    margin-bottom: 20px;
+  }
+  .inner_inner {
+    position: relative;
+  }
+
+  .bottom_right {
+    position: absolute;
+    bottom: 35px;
+    right: 16px;
+    background-color: #ffa283;
+    padding: 5px 15px;
+    border-radius: 8px;
+    color: white;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 14px;
+  }
+
+  .Meal_rice_inner button {
+    background-color: green;
+    color: white;
+    padding: 10px 130px;
+    border-radius: 8px;
+    margin-top: 50px;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .Meal_rice_inner button:hover {
+    background-color: rgb(4, 192, 4);
+  }
+}
